@@ -5,11 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FurnitureApp.Views"
         mc:Ignorable="d"
-        Title="Мастер" Height="450" Width="324">
+        Title="Экран мастера" Height="450" Width="299" Background="#FFA6A6A6">
     <Grid>
-        <Button x:Name="button" Content="Выход" HorizontalAlignment="Left" Margin="110,355,0,0" VerticalAlignment="Top" Width="100" Height="40" Click="button_Exit_Click"/>
-        <Button Content="Учет материалов" HorizontalAlignment="Left" Margin="45,40,0,0" VerticalAlignment="Top" Width="229" Height="55" FontSize="20" FontFamily="Arial" Click="Button_OpeMaterAccWin_Click"/>
-        <Button Content="Учет фурнитуры" HorizontalAlignment="Left" Margin="45,100,0,0" VerticalAlignment="Top" Width="229" Height="55" FontSize="20" FontFamily="Arial" Click="Button_OpeFurnAccWin_Click"/>
+        <Button Content="Учет материалов" HorizontalAlignment="Left" Margin="35,40,0,0" VerticalAlignment="Top" Width="229" Height="55" FontSize="20" FontFamily="Arial" Click="Button_OpeMaterAccWin_Click"/>
+        <Button Content="Учет фурнитуры" HorizontalAlignment="Left" Margin="35,100,0,0" VerticalAlignment="Top" Width="229" Height="55" FontSize="20" FontFamily="Arial" Click="Button_OpeFurnAccWin_Click"/>
+        <Button x:Name="button" Content="Выход на форму авторизации" HorizontalAlignment="Left" Margin="55,350,0,0" VerticalAlignment="Top" Width="180" Height="40" Click="button_Exit_Click"/>
+        <Label x:Name="UserField" Content="Пользователь: " HorizontalAlignment="Left" Margin="50,9,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

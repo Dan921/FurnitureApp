@@ -155,7 +155,7 @@
     <Compile Include="Model\EquipmentType.cs" />
     <Compile Include="Model\Furniture.cs" />
     <Compile Include="Model\Material.cs" />
-    <Compile Include="Model\Specification.cs" />
+    <Compile Include="Model\Supplier.cs" />
     <Compile Include="Views\CustomerWindow.xaml.cs">
       <DependentUpon>CustomerWindow.xaml</DependentUpon>
     </Compile>
@@ -167,9 +167,6 @@
     </Compile>
     <Compile Include="Views\EquipmentAccountingWindow.xaml.cs">
       <DependentUpon>EquipmentAccountingWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\EquipmentSpecificationsWindow.xaml.cs">
-      <DependentUpon>EquipmentSpecificationsWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\EquipmentWindow.xaml.cs">
       <DependentUpon>EquipmentWindow.xaml</DependentUpon>
@@ -220,10 +217,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\EquipmentAccountingWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\EquipmentSpecificationsWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

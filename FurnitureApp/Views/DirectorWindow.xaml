@@ -5,12 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FurnitureApp.Views"
         mc:Ignorable="d"
-        Title="Директор" Height="450" Width="289">
+        Title="Экран директора" Height="450" Width="289" Background="#FFACACAC">
     <Grid>
-        <Button x:Name="button" Content="Выход" HorizontalAlignment="Left" Margin="90,355,0,0" VerticalAlignment="Top" Width="100" Height="40" Click="button_Exit_Click"/>
-        <Button Content="Учет оборудования" HorizontalAlignment="Left" Margin="29,29,0,0" VerticalAlignment="Top" Width="229" Height="55" FontSize="20" FontFamily="Arial" Click="Button_OpenEquipAccWin_Click"/>
-        <Button Content="Учет материалов" HorizontalAlignment="Left" Margin="29,89,0,0" VerticalAlignment="Top" Width="229" Height="55" FontSize="20" FontFamily="Arial" Click="Button_OpeMaterAccWin_Click"/>
-        <Button Content="Учет фурнитуры" HorizontalAlignment="Left" Margin="29,149,0,0" VerticalAlignment="Top" Width="229" Height="55" FontSize="20" FontFamily="Arial" Click="Button_OpeFurnAccWin_Click"/>
+        <Button Content="Учет оборудования" HorizontalAlignment="Left" Margin="30,40,0,0" VerticalAlignment="Top" Width="229" Height="55" FontSize="20" FontFamily="Arial" Click="Button_OpenEquipAccWin_Click"/>
+        <Button Content="Учет материалов" HorizontalAlignment="Left" Margin="30,100,0,0" VerticalAlignment="Top" Width="229" Height="55" FontSize="20" FontFamily="Arial" Click="Button_OpeMaterAccWin_Click"/>
+        <Button Content="Учет фурнитуры" HorizontalAlignment="Left" Margin="30,160,0,0" VerticalAlignment="Top" Width="229" Height="55" FontSize="20" FontFamily="Arial" Click="Button_OpeFurnAccWin_Click"/>
+        <Button x:Name="button" Content="Выход на форму авторизации" HorizontalAlignment="Left" Margin="50,355,0,0" VerticalAlignment="Top" Width="180" Height="40" Click="button_Exit_Click"/>
+        <Label x:Name="UserField" Content="Пользователь: " HorizontalAlignment="Left" Margin="50,9,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

@@ -38,17 +38,6 @@ namespace FurnitureApp.Views
             }
         }
 
-        private void Button_OpenSpecifications_Click(object sender, RoutedEventArgs e)
-        {
-            if (EquipmentsDataGrid.SelectedItems.Count > 0)
-            {
-                Equipment equipment = (Equipment)EquipmentsDataGrid.SelectedItems[0];
-                EquipmentSpecificationsWindow equipmentSpecificationsWindow = new EquipmentSpecificationsWindow();
-                equipmentSpecificationsWindow.EquipmentSpecificationsTextBox.Text = equipment.Specifications;
-                equipmentSpecificationsWindow.Show();
-            }
-        }
-
         private void Button_Add_Click(object sender, RoutedEventArgs e)
         {
             EquipmentWindow equipmentWindow = new EquipmentWindow();

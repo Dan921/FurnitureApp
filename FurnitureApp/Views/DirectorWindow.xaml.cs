@@ -19,9 +19,10 @@ namespace FurnitureApp.Views
     /// </summary>
     public partial class DirectorWindow : Window
     {
-        public DirectorWindow()
+        public DirectorWindow(string userLogin)
         {
             InitializeComponent();
+            UserField.Content += userLogin;
         }
 
         private void button_Exit_Click(object sender, RoutedEventArgs e)

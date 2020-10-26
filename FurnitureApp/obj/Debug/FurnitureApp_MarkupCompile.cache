@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Kupry\OneDrive\Рабочий стол\FurnitureApp\FurnitureApp\App.xaml
-10-1763819633
+131418168837
 
-191700467540
+24-1026771979
 155-1593123468
-MainWindow.xaml;Views\CustomerWindow.xaml;Views\DepDirectorWindow.xaml;Views\DirectorWindow.xaml;Views\EquipmentAccountingWindow.xaml;Views\EquipmentSpecificationsWindow.xaml;Views\EquipmentWindow.xaml;Views\ManagerWindow.xaml;Views\MasterWindow.xaml;Views\RegistrationWindow.xaml;
+MainWindow.xaml;Views\CustomerWindow.xaml;Views\DepDirectorWindow.xaml;Views\DirectorWindow.xaml;Views\EquipmentAccountingWindow.xaml;Views\EquipmentWindow.xaml;Views\FurnitureListWindow.xaml;Views\FurnitureWindow.xaml;Views\ManagerWindow.xaml;Views\MasterWindow.xaml;Views\MaterialsWindow.xaml;Views\MaterialWindow.xaml;Views\RegistrationWindow.xaml;
 
 False
 

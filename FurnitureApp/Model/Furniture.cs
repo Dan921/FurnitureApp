@@ -16,6 +16,6 @@ namespace FurnitureApp.Model
         public string Unit { get; set; }
         public string type_of_accessories { get; set; }
         public string Purchase_price { get; set; }
-        public string Main_suplier { get; set; }
+        public string Main_supplier { get; set; }
     }
 }

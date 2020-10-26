@@ -19,9 +19,10 @@ namespace FurnitureApp.Views
     /// </summary>
     public partial class MasterWindow : Window
     {
-        public MasterWindow()
+        public MasterWindow(string userLogin)
         {
             InitializeComponent();
+            UserField.Content += userLogin;
         }
 
         private void button_Exit_Click(object sender, RoutedEventArgs e)

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FurnitureApp.Views"
         mc:Ignorable="d"
-        Title="Список фурнитуры" Height="450" Width="800">
+        Title="Список фурнитуры" Height="450" Width="800" Background="#FFA0A0A0">
     <Grid>
         <DataGrid Name="FurnitureDataGrid" HorizontalAlignment="Left" Height="399" Margin="10,10,0,0" VerticalAlignment="Top" Width="615"/>
         <Button Name="AddButton" Content="Добавить" HorizontalAlignment="Left" Margin="639,10,0,0" VerticalAlignment="Top" Width="131" Height="50" FontSize="20" FontFamily="Arial" Click="Button_Add_Click"/>
